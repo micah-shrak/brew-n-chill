@@ -4,8 +4,7 @@
 	"description": "API for brew n chill",
 	"main": "index.js",
 	"scripts": {
-		"start": "nodemon index.js",
-		"server": "nodemon index.js",
+		"start": "nodemon",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
@@ -15,6 +14,7 @@
 		"bcryptjs": "^2.4.3",
 		"cors": "^2.8.5",
 		"dotenv": "^8.1.0",
+		"esm": "^3.2.25",
 		"express": "^4.17.1",
 		"express-session": "^1.16.2",
 		"helmet": "^3.20.0",
