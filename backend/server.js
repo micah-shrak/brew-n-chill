@@ -8,7 +8,7 @@ const server = express();
 const corsOptions = {};
 
 server.use(express.json());
-server.unsubscribe(cors());
+server.use(cors());
 
 configureRoutes(server);
 
