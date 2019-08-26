@@ -10,8 +10,15 @@
 	"author": "Lavon Stalling",
 	"license": "ISC",
 	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"dotenv": "^8.1.0",
 		"express": "^4.17.1",
 		"express-session": "^1.16.2",
+		"helmet": "^3.20.0",
+		"jsonwebtoken": "^8.5.1",
+		"knex-migrate": "^1.7.2",
+		"morgan": "^1.9.1",
 		"pg": "^7.12.1"
 	}
 }
