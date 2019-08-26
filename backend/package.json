@@ -8,5 +8,10 @@
 	},
 	"keywords": [],
 	"author": "Lavon Stalling",
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-session": "^1.16.2",
+		"pg": "^7.12.1"
+	}
 }
